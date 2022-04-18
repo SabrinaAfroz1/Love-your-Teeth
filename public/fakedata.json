@@ -1,22 +1,38 @@
 [
     {
         "id": 1,
-        "name": "servvicename",
-        "price": 1000
+        "name": "Full Mouth Rehabilitation Specialist",
+        "price": 200,
+        "img": " https://i.ibb.co/64qypKJ/img1.jpg"
     },
     {
         "id": 2,
-        "name": "servvicename",
-        "price": 1000
+        "name": "Dental Implants",
+        "price": 500,
+        "img": "https://i.ibb.co/7N0zxMn/img2.jpg"
     },
     {
         "id": 3,
-        "name": "servvicename",
-        "price": 1000
+        "name": "Laser Dentistry",
+        "price": 100,
+        "img": "https://i.ibb.co/Sv7Hgk8/img3.jpg"
     },
     {
         "id": 4,
-        "name": "servvicename",
-        "price": 1000
+        "name": "Root Canal",
+        "price": 1000,
+        "img": "https://i.ibb.co/F0jRfc1/img4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Invisalign",
+        "price": 1000,
+        "img": "https://i.ibb.co/71zHgbQ/img5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Crowns and Bridges",
+        "price": 1000,
+        "img": "https://i.ibb.co/RCZqsMH/img6.jpg"
     }
 ]

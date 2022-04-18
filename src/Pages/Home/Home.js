@@ -20,6 +20,14 @@ const Home = () => {
             </div>
 
             <Services></Services>
+            <div className="container mt-5 text-center">
+                <h2 className="fs-1 text-primary mb-5">Mission Statement</h2>
+
+                <hr></hr>
+                <p className="fs-5 mt-4">Good dentistry is more than our excellent clinical skills and state-of-the-art technology.Establishing relationships with our patients based upon trust and communication is our hallmark.Our highly skilled team is completely dedicated to treating you and your family with the finest quality care.In our warm and caring atmosphere, you can achieve the benefits of a happy and healthy smile that you will enjoy for a lifetime.</p>
+                <h4>-~Dr.Simon W.Rosenberg and Staff</h4>
+            </div>
+
         </div>
     );
 };
