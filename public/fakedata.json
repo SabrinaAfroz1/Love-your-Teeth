@@ -3,36 +3,42 @@
         "id": 1,
         "name": "Full Mouth Rehabilitation Specialist",
         "price": 200,
-        "img": " https://i.ibb.co/64qypKJ/img1.jpg"
+        "img": " https://i.ibb.co/64qypKJ/img1.jpg",
+        "description": "Simon W. Rosenberg, DMD, and the team use advanced technologies and custom restorations to help individuals achieve healthy, vibrant smiles. To learn more about full mouth rehabilitation, call the New York City office, or book online today."
     },
     {
         "id": 2,
         "name": "Dental Implants",
         "price": 500,
-        "img": "https://i.ibb.co/7N0zxMn/img2.jpg"
+        "img": "https://i.ibb.co/7N0zxMn/img2.jpg",
+        "description": "We offer full-service implant dentistry from diagnosis and treatment to implant placement and restoration."
     },
     {
         "id": 3,
         "name": "Laser Dentistry",
         "price": 100,
-        "img": "https://i.ibb.co/Sv7Hgk8/img3.jpg"
+        "img": "https://i.ibb.co/Sv7Hgk8/img3.jpg",
+        "description": "offer laser dentistry to people of all ages. Laser dentistry is pain-free, effective, and requires fewer in-office visits."
     },
     {
         "id": 4,
         "name": "Root Canal",
         "price": 1000,
-        "img": "https://i.ibb.co/F0jRfc1/img4.jpg"
+        "img": "https://i.ibb.co/F0jRfc1/img4.jpg",
+        "description": "Teeth with infected pulp may be painful, sensitive to hot, cold, or biting, or they may not have any symptoms at all but are discovered with routine intra-oral x-rays. Experienced dentist Simon W. Rosenberg, DMD, performs root canals to help alleviate your tooth pain."
     },
     {
         "id": 5,
         "name": "Invisalign",
         "price": 1000,
-        "img": "https://i.ibb.co/71zHgbQ/img5.jpg"
+        "img": "https://i.ibb.co/71zHgbQ/img5.jpg",
+        "description": "We offer several types of orthodontic treatment, including Invisalign, ClearCorrect™, and Orthosnap. If you want a straighter, more symmetrical smile, book online to schedule an appointment or call the New York City office today."
     },
     {
         "id": 6,
         "name": "Crowns and Bridges",
         "price": 1000,
-        "img": "https://i.ibb.co/RCZqsMH/img6.jpg"
+        "img": "https://i.ibb.co/RCZqsMH/img6.jpg",
+        "description": "If you have damaged or missing teeth, crowns and bridges can restore your smile as well as your chewing and biting abilities.Simon W. Rosenberg, DMD, and the team use crowns and bridges to help individuals achieve healthy, functional smiles."
     }
 ]
