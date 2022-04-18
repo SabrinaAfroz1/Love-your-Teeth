@@ -2,8 +2,8 @@ import React from 'react';
 
 const Errorpage = () => {
     return (
-        <div className="bg-dark">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2F404-page&psig=AOvVaw0rzZY6Loq6ldOjt-aMtMf9&ust=1650397685232000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDY3NKwnvcCFQAAAAAdAAAAABAD" alt="" />
+        <div className="bg-dark d-flex  p-5 justify-content-center">
+            <img src="https://media.istockphoto.com/photos/error-page-not-found-picture-id1153372686?b=1&k=20&m=1153372686&s=170667a&w=0&h=4veHHEjI5rq2qpYWMXcHSzXfrp22SMwa79DsqqiYfAw=" alt="" />
 
         </div>
     );
