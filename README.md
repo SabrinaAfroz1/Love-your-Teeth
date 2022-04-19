@@ -4,7 +4,7 @@ This project was about dentist services.
 
 ## Love your Teeth
 
-{https://assignment10-49e2b.web.app/}
+https://assignment10-49e2b.web.app/
 
 ### `Live Site Link `
 
