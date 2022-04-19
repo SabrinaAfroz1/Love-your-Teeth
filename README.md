@@ -4,7 +4,7 @@ This project was about dentist services.
 
 ## Love your Teeth
 
-In the project directory, you can run:
+{https://assignment10-49e2b.web.app/}
 
 ### `Live Site Link `
 
