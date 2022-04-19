@@ -3,7 +3,11 @@ import '../Login/Login.css';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import SocialLogin from '../Login/SocialLogin/SocialLogin';
+
+
+
+import { useSendEmailVerification } from 'react-firebase-hooks/auth';
+
 
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -12,8 +16,10 @@ const Register = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
+
+
     const [createUserWithEmailAndPassword, user] =
-        useCreateUserWithEmailAndPassword(auth);
+        useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
 
     if (user) {
@@ -40,6 +46,7 @@ const Register = () => {
             setError('password must be longer than 6 character')
         }
         createUserWithEmailAndPassword(email, password);
+
     }
     return (
         <div className='form-container'>
@@ -76,7 +83,6 @@ const Register = () => {
 
                     </div>
                 </div>
-                <SocialLogin></SocialLogin>
             </div>
 
         </div>

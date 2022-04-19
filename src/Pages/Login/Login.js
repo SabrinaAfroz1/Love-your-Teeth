@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
+import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 
 const Login = () => {
 
@@ -33,6 +34,7 @@ const Login = () => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
     }
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
 
     return (
         <div className='form-container'>
@@ -54,6 +56,11 @@ const Login = () => {
                 <p className='link-bar'>
                     New Here? <Link className='form-link' to='/register'>Create an Account</Link>
                 </p>
+                <Link to="/login" className=" link-bar form-link" onClick={async () => {
+                    await sendPasswordResetEmail(email);
+                    alert('Sent email');
+                }}>Reset password
+                </Link>
                 <div className='bar-line'>
                     <div className='bar'>
 
@@ -68,7 +75,10 @@ const Login = () => {
 
                     </div>
                 </div>
+
                 <SocialLogin></SocialLogin>
+
+
             </div >
 
 

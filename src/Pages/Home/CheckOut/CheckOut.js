@@ -27,6 +27,8 @@ const CheckOut = () => {
     const handleCreateUser = event => {
         event.preventDefault();
     }
+
+
     return (
         <div className='form-container'>
             <div>
@@ -51,7 +53,11 @@ const CheckOut = () => {
                         <input onBlur={handlePhoneNumberBlur} type="text" placeholder="Phone Number" name="Phone-number" id="" required />
                     </div>
                     <p style={{ color: 'red' }}>{error}</p>
-                    <input className='form-submit' type="submit" value="Check Out" />
+
+                    <button onClick={async () => {
+                        alert('Sent email');
+                    }}
+                        className='form-submit' type="submit" >Check Out </button>
                 </form>
             </div>
 
